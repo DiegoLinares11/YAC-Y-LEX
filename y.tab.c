@@ -504,7 +504,7 @@ union yyalloc
 /* YYFINAL -- State number of the termination state.  */
 #define YYFINAL  9
 /* YYLAST -- Last index in YYTABLE.  */
-#define YYLAST   20
+#define YYLAST   22
 
 /* YYNTOKENS -- Number of terminals.  */
 #define YYNTOKENS  11
@@ -605,8 +605,8 @@ yysymbol_name (yysymbol_kind_t yysymbol)
    STATE-NUM.  */
 static const yytype_int8 yypact[] =
 {
-      -2,    -9,    14,    18,    -2,    -9,    -9,     1,    13,    -9,
-      -9,    13,    13,    13,    13,    -9,    -9,     6,     6,     6,
+      -2,    -9,    15,    21,    -2,    -9,    -9,     1,    13,    -9,
+      -9,    13,    13,    13,    13,    -9,    -9,     6,    10,    10,
       -9,    -9
 };
 
@@ -623,7 +623,7 @@ static const yytype_int8 yydefact[] =
 /* YYPGOTO[NTERM-NUM].  */
 static const yytype_int8 yypgoto[] =
 {
-      -9,    -9,    -9,    16,    -9,    -8
+      -9,    -9,    -9,    18,    -9,    -8
 };
 
 /* YYDEFGOTO[NTERM-NUM].  */
@@ -638,15 +638,15 @@ static const yytype_int8 yydefgoto[] =
 static const yytype_int8 yytable[] =
 {
       17,     1,     2,    18,    19,    20,    21,    11,    12,    13,
-      14,    15,    11,    12,    13,    14,     1,    16,     9,     8,
-      10
+      14,    15,    11,    12,    13,    14,     1,    16,    13,    14,
+       8,     9,    10
 };
 
 static const yytype_int8 yycheck[] =
 {
        8,     3,     4,    11,    12,    13,    14,     6,     7,     8,
-       9,    10,     6,     7,     8,     9,     3,     4,     0,     5,
-       4
+       9,    10,     6,     7,     8,     9,     3,     4,     8,     9,
+       5,     0,     4
 };
 
 /* YYSTOS[STATE-NUM] -- The symbol kind of the accessing symbol of

@@ -239,8 +239,6 @@ State 18
    11           | expression . '*' expression
    12           | expression . '/' expression
 
-    '+'  shift, and go to state 11
-    '-'  shift, and go to state 12
     '*'  shift, and go to state 13
     '/'  shift, and go to state 14
 
@@ -255,8 +253,6 @@ State 19
    11           | expression . '*' expression
    12           | expression . '/' expression
 
-    '+'  shift, and go to state 11
-    '-'  shift, and go to state 12
     '*'  shift, and go to state 13
     '/'  shift, and go to state 14
 
